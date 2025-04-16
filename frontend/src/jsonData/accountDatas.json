@@ -1,0 +1,1063 @@
+{
+  "industries": [
+    {
+      "industry": "Agriculture",
+      "companies": [
+        {
+          "company_name": "Green Fields Farms",
+          "size": "Medium",
+          "location": "Springfield, IL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "John Doe",
+              "title": "CEO",
+              "email": "john.doe@greenfields.com",
+              "phone": "+1 555-1234"
+            },
+            {
+              "contact_name": "Jane Smith",
+              "title": "Farm Manager",
+              "email": "jane.smith@greenfields.com",
+              "phone": "+1 555-5678"
+            },
+            {
+              "contact_name": "Emma Green",
+              "title": "Marketing Head",
+              "email": "emma.green@greenfields.com",
+              "phone": "+1 555-8765"
+            }
+          ],
+          "region": "Midwest",
+          "potential_revenue": "$3,500,000"
+        },
+        {
+          "company_name": "Harvest Partners",
+          "size": "Small",
+          "location": "Tucson, AZ, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Carlos Ramirez",
+              "title": "Founder",
+              "email": "carlos.ramirez@harvestpartners.com",
+              "phone": "+1 555-9911"
+            },
+            {
+              "contact_name": "Sophia Reyes",
+              "title": "Supply Chain Coordinator",
+              "email": "sophia.reyes@harvestpartners.com",
+              "phone": "+1 555-2234"
+            },
+            {
+              "contact_name": "Luis Gutierrez",
+              "title": "Operations Lead",
+              "email": "luis.gutierrez@harvestpartners.com",
+              "phone": "+1 555-3322"
+            }
+          ],
+          "region": "Southwest",
+          "potential_revenue": "$1,800,000"
+        },
+        {
+          "company_name": "AgroTech Solutions",
+          "size": "Large",
+          "location": "Des Moines, IA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Samuel White",
+              "title": "CEO",
+              "email": "samuel.white@agrotech.com",
+              "phone": "+1 555-4444"
+            },
+            {
+              "contact_name": "Megan Wilson",
+              "title": "R&D Manager",
+              "email": "megan.wilson@agrotech.com",
+              "phone": "+1 555-5555"
+            },
+            {
+              "contact_name": "James Scott",
+              "title": "Lead Engineer",
+              "email": "james.scott@agrotech.com",
+              "phone": "+1 555-6767"
+            }
+          ],
+          "region": "Midwest",
+          "potential_revenue": "$12,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Fishing",
+      "companies": [
+        {
+          "company_name": "Oceanic Fisheries Ltd.",
+          "size": "Large",
+          "location": "Seattle, WA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Samuel Reynolds",
+              "title": "Director of Operations",
+              "email": "samuel.reynolds@oceanicfisheries.com",
+              "phone": "+1 555-9876"
+            },
+            {
+              "contact_name": "Emily Clark",
+              "title": "Logistics Manager",
+              "email": "emily.clark@oceanicfisheries.com",
+              "phone": "+1 555-5432"
+            },
+            {
+              "contact_name": "Grace Adams",
+              "title": "Marketing Director",
+              "email": "grace.adams@oceanicfisheries.com",
+              "phone": "+1 555-9087"
+            }
+          ],
+          "region": "Pacific Northwest",
+          "potential_revenue": "$15,200,000"
+        },
+        {
+          "company_name": "Atlantic Seafood Corp.",
+          "size": "Medium",
+          "location": "Portland, ME, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Nathan Perez",
+              "title": "CEO",
+              "email": "nathan.perez@atlanticseafood.com",
+              "phone": "+1 555-3456"
+            },
+            {
+              "contact_name": "Jessica Green",
+              "title": "Operations Manager",
+              "email": "jessica.green@atlanticseafood.com",
+              "phone": "+1 555-5678"
+            },
+            {
+              "contact_name": "Michael Anderson",
+              "title": "Purchasing Coordinator",
+              "email": "michael.anderson@atlanticseafood.com",
+              "phone": "+1 555-6789"
+            }
+          ],
+          "region": "Northeast",
+          "potential_revenue": "$8,500,000"
+        },
+        {
+          "company_name": "Blue Wave Fisheries",
+          "size": "Medium",
+          "location": "Miami, FL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Alice Thompson",
+              "title": "Chief Operations Officer",
+              "email": "alice.thompson@bluewavefisheries.com",
+              "phone": "+1 555-1122"
+            },
+            {
+              "contact_name": "David Brooks",
+              "title": "Fleet Manager",
+              "email": "david.brooks@bluewavefisheries.com",
+              "phone": "+1 555-3322"
+            },
+            {
+              "contact_name": "Rachel Carter",
+              "title": "Sales Executive",
+              "email": "rachel.carter@bluewavefisheries.com",
+              "phone": "+1 555-4455"
+            }
+          ],
+          "region": "Southeast",
+          "potential_revenue": "$6,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Mining",
+      "companies": [
+        {
+          "company_name": "MineCorp",
+          "size": "Large",
+          "location": "Denver, CO, USA",
+          "related_contacts": [
+            {
+              "contact_name": "James Hall",
+              "title": "Director of Mining Operations",
+              "email": "james.hall@minecorp.com",
+              "phone": "+1 555-2234"
+            },
+            {
+              "contact_name": "Sarah Green",
+              "title": "Project Manager",
+              "email": "sarah.green@minecorp.com",
+              "phone": "+1 555-5566"
+            },
+            {
+              "contact_name": "David White",
+              "title": "Safety Officer",
+              "email": "david.white@minecorp.com",
+              "phone": "+1 555-8899"
+            }
+          ],
+          "region": "Rocky Mountains",
+          "potential_revenue": "$100,000,000"
+        },
+        {
+          "company_name": "Silver Peak Mining",
+          "size": "Medium",
+          "location": "Phoenix, AZ, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Oliver Lee",
+              "title": "CEO",
+              "email": "oliver.lee@silverpeak.com",
+              "phone": "+1 555-4455"
+            },
+            {
+              "contact_name": "Rachel Smith",
+              "title": "Geologist",
+              "email": "rachel.smith@silverpeak.com",
+              "phone": "+1 555-7788"
+            },
+            {
+              "contact_name": "Liam Brown",
+              "title": "Logistics Lead",
+              "email": "liam.brown@silverpeak.com",
+              "phone": "+1 555-9922"
+            }
+          ],
+          "region": "Southwest",
+          "potential_revenue": "$35,000,000"
+        },
+        {
+          "company_name": "Cobalt Resources",
+          "size": "Small",
+          "location": "Salt Lake City, UT, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Megan Taylor",
+              "title": "Founder",
+              "email": "megan.taylor@cobalresources.com",
+              "phone": "+1 555-3333"
+            },
+            {
+              "contact_name": "Daniel Black",
+              "title": "Mining Supervisor",
+              "email": "daniel.black@cobalresources.com",
+              "phone": "+1 555-5544"
+            },
+            {
+              "contact_name": "Lauren Martin",
+              "title": "HR Manager",
+              "email": "lauren.martin@cobalresources.com",
+              "phone": "+1 555-6655"
+            }
+          ],
+          "region": "West",
+          "potential_revenue": "$5,000,000"
+        },
+        {
+          "company_name": "treasures",
+          "size": "large",
+          "location": "chennai",
+          "related_contacts": [
+            {
+              "contact_name": "syed",
+              "title": "manager",
+              "email": "syed@gmail.com",
+              "phone": "1234567890"
+            },
+            {
+              "contact_name": "mukesh",
+              "title": "ceo",
+              "email": "mukesh@gmail.com",
+              "phone": "1234567890"
+            },
+            {
+              "contact_name": "vijay",
+              "title": "lead",
+              "email": "vijay@gmail.com",
+              "phone": "1234567890"
+            }
+          ],
+          "region": "south",
+          "potential_revenue": "$90,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Shoes",
+      "companies": [
+        {
+          "company_name": "Shoe Haven",
+          "size": "Medium",
+          "location": "New York, NY, USA",
+          "related_contacts": [
+            {
+              "contact_name": "William Johnson",
+              "title": "Co-founder",
+              "email": "william.johnson@shoehaven.com",
+              "phone": "+1 555-9988"
+            },
+            {
+              "contact_name": "Nina Peterson",
+              "title": "Design Lead",
+              "email": "nina.peterson@shoehaven.com",
+              "phone": "+1 555-6677"
+            },
+            {
+              "contact_name": "Hannah Lee",
+              "title": "Marketing Head",
+              "email": "hannah.lee@shoehaven.com",
+              "phone": "+1 555-3344"
+            }
+          ],
+          "region": "Northeast",
+          "potential_revenue": "$10,000,000"
+        },
+        {
+          "company_name": "Stride Right Shoes",
+          "size": "Large",
+          "location": "Chicago, IL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Emma Scott",
+              "title": "VP of Operations",
+              "email": "emma.scott@strideright.com",
+              "phone": "+1 555-5555"
+            },
+            {
+              "contact_name": "Lucas White",
+              "title": "Supply Chain Manager",
+              "email": "lucas.white@strideright.com",
+              "phone": "+1 555-4433"
+            },
+            {
+              "contact_name": "Oliver Walker",
+              "title": "Chief Marketing Officer",
+              "email": "oliver.walker@strideright.com",
+              "phone": "+1 555-6677"
+            }
+          ],
+          "region": "Midwest",
+          "potential_revenue": "$50,000,000"
+        },
+        {
+          "company_name": "Elite Steps",
+          "size": "Small",
+          "location": "Los Angeles, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Sophia Adams",
+              "title": "Founder",
+              "email": "sophia.adams@elitesteps.com",
+              "phone": "+1 555-2222"
+            },
+            {
+              "contact_name": "John Morgan",
+              "title": "Creative Director",
+              "email": "john.morgan@elitesteps.com",
+              "phone": "+1 555-3333"
+            },
+            {
+              "contact_name": "Emily Green",
+              "title": "Sales Coordinator",
+              "email": "emily.green@elitesteps.com",
+              "phone": "+1 555-4444"
+            }
+          ],
+          "region": "West Coast",
+          "potential_revenue": "$8,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Furniture",
+      "companies": [
+        {
+          "company_name": "Comfort Living",
+          "size": "Large",
+          "location": "Dallas, TX, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Charlotte Miller",
+              "title": "CEO",
+              "email": "charlotte.miller@comfortliving.com",
+              "phone": "+1 555-1212"
+            },
+            {
+              "contact_name": "Aaron Black",
+              "title": "Design Manager",
+              "email": "aaron.black@comfortliving.com",
+              "phone": "+1 555-5454"
+            },
+            {
+              "contact_name": "Rachel Johnson",
+              "title": "Customer Relations",
+              "email": "rachel.johnson@comfortliving.com",
+              "phone": "+1 555-7878"
+            }
+          ],
+          "region": "Southwest",
+          "potential_revenue": "$40,000,000"
+        },
+        {
+          "company_name": "Modern Furniture Co.",
+          "size": "Medium",
+          "location": "Los Angeles, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Steve Harris",
+              "title": "Founder",
+              "email": "steve.harris@modernfurniture.com",
+              "phone": "+1 555-4444"
+            },
+            {
+              "contact_name": "Sophia Clark",
+              "title": "Sales Director",
+              "email": "sophia.clark@modernfurniture.com",
+              "phone": "+1 555-2323"
+            },
+            {
+              "contact_name": "Eliot Brown",
+              "title": "Logistics Manager",
+              "email": "eliot.brown@modernfurniture.com",
+              "phone": "+1 555-6767"
+            }
+          ],
+          "region": "West Coast",
+          "potential_revenue": "$20,000,000"
+        },
+        {
+          "company_name": "LuxFurniture",
+          "size": "Small",
+          "location": "Miami, FL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Olivia Miller",
+              "title": "Founder",
+              "email": "olivia.miller@luxfurniture.com",
+              "phone": "+1 555-7878"
+            },
+            {
+              "contact_name": "Evan White",
+              "title": "Marketing Lead",
+              "email": "evan.white@luxfurniture.com",
+              "phone": "+1 555-2323"
+            },
+            {
+              "contact_name": "Jessica Williams",
+              "title": "Production Lead",
+              "email": "jessica.williams@luxfurniture.com",
+              "phone": "+1 555-4343"
+            }
+          ],
+          "region": "Southeast",
+          "potential_revenue": "$10,000,000"
+        },
+        {
+          "company_name": "furniture shop",
+          "size": "large",
+          "location": "chennai",
+          "related_contacts": [
+            {
+              "contact_name": "syed",
+              "title": "ceo",
+              "email": "syed@gmail.com",
+              "phone": "1234567890"
+            },
+            {
+              "contact_name": "vijay",
+              "title": "sales manager",
+              "email": "vijay@gmail.com",
+              "phone": "0987654321"
+            },
+            {
+              "contact_name": "logesh",
+              "title": "executive",
+              "email": "logesh@gmail.com",
+              "phone": "7654329876"
+            }
+          ],
+          "region": "south",
+          "potential_revenue": "$40,000,000"
+        },
+        {
+          "company_name": "vijay furniture",
+          "size": "large",
+          "location": "chennai",
+          "related_contacts": [
+            {
+              "contact_name": "vijay",
+              "title": "ceo",
+              "email": "vijay@gmail.com",
+              "phone": "1234567890"
+            },
+            {
+              "contact_name": "mukesh",
+              "title": "sales manager",
+              "email": "mukesh@gmail.com",
+              "phone": "1234567890"
+            },
+            {
+              "contact_name": "logesh",
+              "title": "executive",
+              "email": "logesh@gmail.com",
+              "phone": "1234567890"
+            }
+          ],
+          "region": "south",
+          "potential_revenue": "$40,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "IT",
+      "companies": [
+        {
+          "company_name": "Tech Innovators",
+          "size": "Large",
+          "location": "San Francisco, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "James Clark",
+              "title": "CTO",
+              "email": "james.clark@techinnovators.com",
+              "phone": "+1 555-2233"
+            },
+            {
+              "contact_name": "Laura Watson",
+              "title": "Project Manager",
+              "email": "laura.watson@techinnovators.com",
+              "phone": "+1 555-3344"
+            },
+            {
+              "contact_name": "Emma Green",
+              "title": "Head of Sales",
+              "email": "emma.green@techinnovators.com",
+              "phone": "+1 555-4455"
+            }
+          ],
+          "region": "West Coast",
+          "potential_revenue": "$75,000,000"
+        },
+        {
+          "company_name": "NextGen Software",
+          "size": "Medium",
+          "location": "Austin, TX, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Benjamin Taylor",
+              "title": "Founder",
+              "email": "benjamin.taylor@nextgen.com",
+              "phone": "+1 555-3344"
+            },
+            {
+              "contact_name": "Megan Lewis",
+              "title": "Lead Engineer",
+              "email": "megan.lewis@nextgen.com",
+              "phone": "+1 555-4455"
+            },
+            {
+              "contact_name": "Sophie Wright",
+              "title": "HR Lead",
+              "email": "sophie.wright@nextgen.com",
+              "phone": "+1 555-5566"
+            }
+          ],
+          "region": "Southwest",
+          "potential_revenue": "$50,000,000"
+        },
+        {
+          "company_name": "Tech Titans",
+          "size": "Small",
+          "location": "New York, NY, USA",
+          "related_contacts": [
+            {
+              "contact_name": "James Fisher",
+              "title": "CEO",
+              "email": "james.fisher@techtitans.com",
+              "phone": "+1 555-1234"
+            },
+            {
+              "contact_name": "Amanda Harris",
+              "title": "Sales Director",
+              "email": "amanda.harris@techtitans.com",
+              "phone": "+1 555-5678"
+            },
+            {
+              "contact_name": "Peter Black",
+              "title": "Chief Engineer",
+              "email": "peter.black@techtitans.com",
+              "phone": "+1 555-6789"
+            }
+          ],
+          "region": "Northeast",
+          "potential_revenue": "$30,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Oil",
+      "companies": [
+        {
+          "company_name": "OilCorp",
+          "size": "Large",
+          "location": "Houston, TX, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Arthur King",
+              "title": "VP of Operations",
+              "email": "arthur.king@oilcorp.com",
+              "phone": "+1 555-1122"
+            },
+            {
+              "contact_name": "Grace Lewis",
+              "title": "Geologist",
+              "email": "grace.lewis@oilcorp.com",
+              "phone": "+1 555-2233"
+            },
+            {
+              "contact_name": "Victor Stone",
+              "title": "Field Engineer",
+              "email": "victor.stone@oilcorp.com",
+              "phone": "+1 555-3344"
+            }
+          ],
+          "region": "Southwest",
+          "potential_revenue": "$120,000,000"
+        },
+        {
+          "company_name": "Hydro Oil Ltd.",
+          "size": "Medium",
+          "location": "Dallas, TX, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Katherine Wells",
+              "title": "CEO",
+              "email": "katherine.wells@hydrooil.com",
+              "phone": "+1 555-3344"
+            },
+            {
+              "contact_name": "Steven Marks",
+              "title": "Exploration Lead",
+              "email": "steven.marks@hydrooil.com",
+              "phone": "+1 555-4455"
+            },
+            {
+              "contact_name": "Angela Scott",
+              "title": "Finance Head",
+              "email": "angela.scott@hydrooil.com",
+              "phone": "+1 555-5566"
+            }
+          ],
+          "region": "Central USA",
+          "potential_revenue": "$70,000,000"
+        },
+        {
+          "company_name": "PetroMax",
+          "size": "Small",
+          "location": "Denver, CO, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Luis Gonzales",
+              "title": "Founder",
+              "email": "luis.gonzales@petromax.com",
+              "phone": "+1 555-7777"
+            },
+            {
+              "contact_name": "Marie Brown",
+              "title": "Operations Manager",
+              "email": "marie.brown@petromax.com",
+              "phone": "+1 555-8888"
+            },
+            {
+              "contact_name": "David Miller",
+              "title": "Logistics Coordinator",
+              "email": "david.miller@petromax.com",
+              "phone": "+1 555-9999"
+            }
+          ],
+          "region": "Rocky Mountains",
+          "potential_revenue": "$45,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Gas",
+      "companies": [
+        {
+          "company_name": "GasCo",
+          "size": "Large",
+          "location": "Los Angeles, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Liam Jackson",
+              "title": "VP of Operations",
+              "email": "liam.jackson@gasco.com",
+              "phone": "+1 555-2211"
+            },
+            {
+              "contact_name": "Sophie Adams",
+              "title": "Supply Chain Head",
+              "email": "sophie.adams@gasco.com",
+              "phone": "+1 555-3344"
+            },
+            {
+              "contact_name": "Mark Wilson",
+              "title": "Energy Specialist",
+              "email": "mark.wilson@gasco.com",
+              "phone": "+1 555-4455"
+            }
+          ],
+          "region": "West Coast",
+          "potential_revenue": "$90,000,000"
+        },
+        {
+          "company_name": "Gulf Gas Ltd.",
+          "size": "Medium",
+          "location": "Miami, FL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Daniel Thomas",
+              "title": "CEO",
+              "email": "daniel.thomas@gulfgas.com",
+              "phone": "+1 555-7788"
+            },
+            {
+              "contact_name": "Helen King",
+              "title": "Field Manager",
+              "email": "helen.king@gulfgas.com",
+              "phone": "+1 555-8899"
+            },
+            {
+              "contact_name": "Evan Walker",
+              "title": "Technical Lead",
+              "email": "evan.walker@gulfgas.com",
+              "phone": "+1 555-9922"
+            }
+          ],
+          "region": "Southwest",
+          "potential_revenue": "$60,000,000"
+        },
+        {
+          "company_name": "Green Gas Ventures",
+          "size": "Small",
+          "location": "Austin, TX, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Eva Rodriguez",
+              "title": "Founder",
+              "email": "eva.rodriguez@greengas.com",
+              "phone": "+1 555-2345"
+            },
+            {
+              "contact_name": "Carlos Scott",
+              "title": "Technical Manager",
+              "email": "carlos.scott@greengas.com",
+              "phone": "+1 555-3456"
+            },
+            {
+              "contact_name": "Anna White",
+              "title": "Operations Lead",
+              "email": "anna.white@greengas.com",
+              "phone": "+1 555-4567"
+            }
+          ],
+          "region": "Central",
+          "potential_revenue": "$25,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Chemicals",
+      "companies": [
+        {
+          "company_name": "ChemGlobal Inc.",
+          "size": "Large",
+          "location": "San Francisco, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Leonardo Greene",
+              "title": "Research Director",
+              "email": "leo.greene@chemglobal.com",
+              "phone": "+1 555-2345"
+            },
+            {
+              "contact_name": "Anita Foster",
+              "title": "Supply Chain Lead",
+              "email": "anita.foster@chemglobal.com",
+              "phone": "+1 555-7766"
+            },
+            {
+              "contact_name": "Gina West",
+              "title": "Product Innovation Specialist",
+              "email": "gina.west@chemglobal.com",
+              "phone": "+1 555-9988"
+            }
+          ],
+          "region": "West Coast",
+          "potential_revenue": "$50,000,000"
+        },
+        {
+          "company_name": "Regen Chem",
+          "size": "Medium",
+          "location": "Los Angeles, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Benjamin Adams",
+              "title": "CEO",
+              "email": "benjamin.adams@regenchem.com",
+              "phone": "+1 555-2234"
+            },
+            {
+              "contact_name": "Laura Bates",
+              "title": "Sales Manager",
+              "email": "laura.bates@regenchem.com",
+              "phone": "+1 555-9988"
+            },
+            {
+              "contact_name": "Samuel Collins",
+              "title": "R&D Engineer",
+              "email": "samuel.collins@regenchem.com",
+              "phone": "+1 555-6655"
+            }
+          ],
+          "region": "California",
+          "potential_revenue": "$22,000,000"
+        },
+        {
+          "company_name": "ChemicalTech",
+          "size": "Small",
+          "location": "Chicago, IL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Katherine Miller",
+              "title": "Founder",
+              "email": "katherine.miller@chemicaltech.com",
+              "phone": "+1 555-3344"
+            },
+            {
+              "contact_name": "Marcus Webb",
+              "title": "Production Manager",
+              "email": "marcus.webb@chemicaltech.com",
+              "phone": "+1 555-6677"
+            },
+            {
+              "contact_name": "Rebecca James",
+              "title": "Operations Lead",
+              "email": "rebecca.james@chemicaltech.com",
+              "phone": "+1 555-8899"
+            }
+          ],
+          "region": "Midwest",
+          "potential_revenue": "$10,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Frozen Food",
+      "companies": [
+        {
+          "company_name": "Frozen Delights Co.",
+          "size": "Large",
+          "location": "Chicago, IL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Amelia Thomas",
+              "title": "CEO",
+              "email": "amelia.thomas@frozendelights.com",
+              "phone": "+1 555-1234"
+            },
+            {
+              "contact_name": "Ryan Miller",
+              "title": "Head of Production",
+              "email": "ryan.miller@frozendelights.com",
+              "phone": "+1 555-5678"
+            },
+            {
+              "contact_name": "Sophia White",
+              "title": "Sales Manager",
+              "email": "sophia.white@frozendelights.com",
+              "phone": "+1 555-9988"
+            }
+          ],
+          "region": "Midwest",
+          "potential_revenue": "$45,000,000"
+        },
+        {
+          "company_name": "Frosty Bites",
+          "size": "Medium",
+          "location": "Los Angeles, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Henry Jones",
+              "title": "Founder",
+              "email": "henry.jones@frostybites.com",
+              "phone": "+1 555-3344"
+            },
+            {
+              "contact_name": "Isabella Green",
+              "title": "Product Manager",
+              "email": "isabella.green@frostybites.com",
+              "phone": "+1 555-4455"
+            },
+            {
+              "contact_name": "Liam Walker",
+              "title": "Logistics Lead",
+              "email": "liam.walker@frostybites.com",
+              "phone": "+1 555-5566"
+            }
+          ],
+          "region": "West Coast",
+          "potential_revenue": "$20,000,000"
+        },
+        {
+          "company_name": "Chill Foods",
+          "size": "Small",
+          "location": "Miami, FL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Eva Turner",
+              "title": "Founder",
+              "email": "eva.turner@chillfoods.com",
+              "phone": "+1 555-6677"
+            },
+            {
+              "contact_name": "Nathan Young",
+              "title": "Operations Lead",
+              "email": "nathan.young@chillfoods.com",
+              "phone": "+1 555-7788"
+            },
+            {
+              "contact_name": "Sarah Parker",
+              "title": "Marketing Director",
+              "email": "sarah.parker@chillfoods.com",
+              "phone": "+1 555-8899"
+            }
+          ],
+          "region": "Southeast",
+          "potential_revenue": "$12,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "Media",
+      "companies": [
+        {
+          "company_name": "Media Hub",
+          "size": "Large",
+          "location": "New York, NY, USA",
+          "related_contacts": [
+            {
+              "contact_name": "James Williams",
+              "title": "CEO",
+              "email": "james.williams@mediahub.com",
+              "phone": "+1 555-1122"
+            },
+            {
+              "contact_name": "Emily Clark",
+              "title": "Creative Director",
+              "email": "emily.clark@mediahub.com",
+              "phone": "+1 555-2233"
+            },
+            {
+              "contact_name": "David Johnson",
+              "title": "Marketing Lead",
+              "email": "david.johnson@mediahub.com",
+              "phone": "+1 555-3344"
+            }
+          ],
+          "region": "Northeast",
+          "potential_revenue": "$60,000,000"
+        },
+        {
+          "company_name": "Content Creators",
+          "size": "Medium",
+          "location": "Los Angeles, CA, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Sophia Brown",
+              "title": "Founder",
+              "email": "sophia.brown@contentcreators.com",
+              "phone": "+1 555-7788"
+            },
+            {
+              "contact_name": "Oliver Harris",
+              "title": "Lead Producer",
+              "email": "oliver.harris@contentcreators.com",
+              "phone": "+1 555-8899"
+            },
+            {
+              "contact_name": "Liam Moore",
+              "title": "Head of Content",
+              "email": "liam.moore@contentcreators.com",
+              "phone": "+1 555-9988"
+            }
+          ],
+          "region": "West Coast",
+          "potential_revenue": "$35,000,000"
+        },
+        {
+          "company_name": "Digital Network",
+          "size": "Small",
+          "location": "Chicago, IL, USA",
+          "related_contacts": [
+            {
+              "contact_name": "Olivia Martinez",
+              "title": "CEO",
+              "email": "olivia.martinez@digitalnetwork.com",
+              "phone": "+1 555-3344"
+            },
+            {
+              "contact_name": "Ethan Garcia",
+              "title": "Head of Operations",
+              "email": "ethan.garcia@digitalnetwork.com",
+              "phone": "+1 555-4455"
+            },
+            {
+              "contact_name": "Lily Scott",
+              "title": "Technical Lead",
+              "email": "lily.scott@digitalnetwork.com",
+              "phone": "+1 555-5566"
+            }
+          ],
+          "region": "Midwest",
+          "potential_revenue": "$15,000,000"
+        }
+      ]
+    },
+    {
+      "industry": "iron",
+      "companies": [
+        {
+          "company_name": "iron shop",
+          "size": "small",
+          "location": "chennai",
+          "related_contacts": [
+            {
+              "contact_name": "mukesh",
+              "title": "ceo",
+              "email": "mukesh@gmail.com",
+              "phone": "1234567890"
+            },
+            {
+              "contact_name": "mani",
+              "title": "sales manager",
+              "email": "mani@gmail.com",
+              "phone": "0987654321"
+            },
+            {
+              "contact_name": "kumar",
+              "title": "executive",
+              "email": "kumar@gmail.com",
+              "phone": "7654209871"
+            }
+          ],
+          "region": "south",
+          "potential_revenue": "$90,000,000"
+        }
+      ]
+    }
+  ]
+}
