@@ -13,7 +13,7 @@ const Message = require('./Models/conversationModel');
 
 // Set up CORS options
 const corsOptions = {
-    origin: 'https://sales-force-mini.netlify.app/', // Allow frontend on localhost:3000
+    origin: 'https://sales-force-mini.netlify.app', // Allow frontend on localhost:3000
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
     credentials: true,
@@ -53,7 +53,7 @@ app.use('/api/chat', require('./Routers/conversationRouter'));
 const server = http.createServer(app);
 const io = socketIo(server, {
     cors: {
-        origin: 'https://sales-force-mini.netlify.app/', // Same as frontend
+        origin: 'https://sales-force-mini.netlify.app', // Same as frontend
         methods: ['GET', 'POST'],
         credentials: true,
     },
