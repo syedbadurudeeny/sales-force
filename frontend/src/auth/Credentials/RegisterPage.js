@@ -29,7 +29,7 @@ const RegisterPage = () => {
         setFoundError(hasError);
 
         if(!hasError){
-            axios.post('http://localhost:8080/api/user/register',{
+            axios.post('https://sales-force.onrender.com/api/user/register',{
                 username : userInputs.name,
                 email : userInputs.email,
                 role: userInputs.role,

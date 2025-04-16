@@ -44,7 +44,7 @@ const AccountForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:8080/api/new/account', { account_info: company })
+    axios.post('https://sales-force.onrender.com/api/new/account', { account_info: company })
       .then(res => {
         alert(res.data.message);
         setCompany({

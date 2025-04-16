@@ -9,7 +9,7 @@ const Report = ({ activeDeals, newCompany }) => {
   useEffect(() => {
     async function fetchCaseFeedback() {
       if (newCompany) {
-        let response = await axios.get(`http://localhost:8080/api/report/v5/${newCompany.company_name}`);
+        let response = await axios.get(`https://sales-force.onrender.com/api/report/v5/${newCompany.company_name}`);
         let data = await response.data;
         setCaseFeedback(data.message);
         console.log("Reports : ", data.message);
@@ -21,7 +21,7 @@ const Report = ({ activeDeals, newCompany }) => {
   useEffect(() => {
     async function fetchRating() {
       if (newCompany) {
-        let response = await axios.get(`http://localhost:8080/api/rating/v6/${newCompany.company_name}`);
+        let response = await axios.get(`https://sales-force.onrender.com/api/rating/v6/${newCompany.company_name}`);
         let data = await response.data;
         setRating(data.message);
         console.log("Rating  : ", data.message);
@@ -38,7 +38,7 @@ const Report = ({ activeDeals, newCompany }) => {
     e.preventDefault();
     if (inputs.oppertunity !== "" || inputs.rating !== "") {
       axios
-        .post("http://localhost:8080/api/rating/v6/oppertunity", {
+        .post("https://sales-force.onrender.com/api/rating/v6/oppertunity", {
           oppertunity: inputs.oppertunity,
           rating: inputs.rating,
           companyName: newCompany.company_name,

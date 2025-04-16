@@ -20,7 +20,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
 
      useEffect(()=>{
         function salesRep(){
-            axios.get(`http://localhost:8080/api/user/salesrep/${"sales rep"}`)
+            axios.get(`https://sales-force.onrender.com/api/user/salesrep/${"sales rep"}`)
             .then((res)=>{
                 if(res){
                     console.log(res.data.message)
@@ -36,7 +36,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
      //
      useEffect(()=>{
         function repTasks(){
-            axios.get(`http://localhost:8080/api/user/salesrep/tasks/${userDetails.username}`)
+            axios.get(`https://sales-force.onrender.com/api/user/salesrep/tasks/${userDetails.username}`)
             .then((res)=>{
                 if(res){
                     console.log(res.data.message)
@@ -54,7 +54,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
     function handleDiscuss(saleName,rep){
         saleChat(saleName);
         if(rep){
-            axios.post('http://localhost:8080/api/store/v2/notify/email',{
+            axios.post('https://sales-force.onrender.com/api/store/v2/notify/email',{
                 repname : rep === 'sales manager'? 'sales manager' : rep
             },{
                 headers : {
@@ -97,7 +97,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
         if(deal.dealName === "" || deal.companyName === "" || deal.dealState === ""){
             alert("Add deal")
         }else{
-            axios.post("http://localhost:8080/api/store/v1/deals",{
+            axios.post("https://sales-force.onrender.com/api/store/v1/deals",{
                 userDeal : deal
             })
             .then((res)=>console.log("res",res))
@@ -111,7 +111,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
 
     async function handleDealStateChange(Deal,dealState){
 
-        const response = axios.put(`http://localhost:8080/api/store/v1/deals/${Deal._id}`,{
+        const response = axios.put(`https://sales-force.onrender.com/api/store/v1/deals/${Deal._id}`,{
             state_of_deal : dealState
         })
 
@@ -155,7 +155,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
     const closedDealsItem = async () =>{
         if(dealRef.current){
 
-            const response = await axios.delete(`http://localhost:8080/api/store/v1/deals/${dealRef.current._id}`);
+            const response = await axios.delete(`https://sales-force.onrender.com/api/store/v1/deals/${dealRef.current._id}`);
 
             const data = await response.data.message;
             console.log(data)
@@ -180,7 +180,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
         async function fetchDeals() {
             // console.log(newCompany)
             if(newCompany){
-                let response  = await axios.get(`http://localhost:8080/api/store/v1/deals/${newCompany.company_name}`);
+                let response  = await axios.get(`https://sales-force.onrender.com/api/store/v1/deals/${newCompany.company_name}`);
                 let data = await response.data;
                 setStoreDeals(data.message)
             }
@@ -203,7 +203,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
         if(closedDeatils.dealName === "" || closedDeatils.companyName === "" || closedDeatils.location === "" || closedDeatils.amount === "" || closedDeatils.date === "" || closedDeatils.time === "" || closedDeatils.rep === ""){
             alert("Enter sale details")
         }else{
-            axios.post("http://localhost:8080/api/store/v2/sales",{
+            axios.post("https://sales-force.onrender.com/api/store/v2/sales",{
                 userSale : closedDeatils
             })
             .then((res)=>{
@@ -223,7 +223,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
     }
 
     const handleSaleStateChange = async (Sale,Salestate) => {
-        const response = axios.put(`http://localhost:8080/api/store/v2/sales/${Sale._id}`,{
+        const response = axios.put(`https://sales-force.onrender.com/api/store/v2/sales/${Sale._id}`,{
             state_of_sale : Salestate
         })
 
@@ -250,7 +250,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
     const closedSalesItem = async () =>{
         if(saleRef.current){
 
-            const response = await axios.delete(`http://localhost:8080/api/store/v2/sales/${saleRef.current._id}`);
+            const response = await axios.delete(`https://sales-force.onrender.com/api/store/v2/sales/${saleRef.current._id}`);
 
             const data = await response.data.message;
             console.log(data)
@@ -274,7 +274,7 @@ const Opportunities = ({newCompany,dealsFuncReportCount,salesFuncReportCount,sal
         async function fetchSales() {
             // console.log(newCompany)
             if(newCompany){
-                let response  = await axios.get(`http://localhost:8080/api/store/v2/sales/${newCompany.company_name}`);
+                let response  = await axios.get(`https://sales-force.onrender.com/api/store/v2/sales/${newCompany.company_name}`);
                 let data = await response.data;
                 console.log("sales :", data)
                 setStoreSales(data.message)

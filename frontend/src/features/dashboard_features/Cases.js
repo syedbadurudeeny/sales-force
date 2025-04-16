@@ -22,7 +22,7 @@ const Cases = ({newCompany}) => {
 
     useEffect(()=>{
         function supportEng(){
-            axios.get(`http://localhost:8080/api/user/support-eng/${"cust support eng"}`)
+            axios.get(`https://sales-force.onrender.com/api/user/support-eng/${"cust support eng"}`)
             .then((res)=>{
                 if(res){
                     console.log(res.data.message)
@@ -43,7 +43,7 @@ const Cases = ({newCompany}) => {
     function handleSubmit(e){
         e.preventDefault();
 
-        axios.post('http://localhost:8080/api/cases/v3/requests',
+        axios.post('https://sales-force.onrender.com/api/cases/v3/requests',
             {
                 companyName : newCompany.company_name,
                 description : engDatas.description,
@@ -70,7 +70,7 @@ const Cases = ({newCompany}) => {
 
     useEffect(()=>{
         async function fetchCasesOfCompany(){
-            const response = await axios.get(`http://localhost:8080/api/cases/v3/cases/info/${newCompany.company_name}`,{
+            const response = await axios.get(`https://sales-force.onrender.com/api/cases/v3/cases/info/${newCompany.company_name}`,{
                 method : 'GET'
             });
 
@@ -86,7 +86,7 @@ const Cases = ({newCompany}) => {
 
     useEffect(()=>{
         async function fetchCustCases(){
-            const response = await axios.get(`http://localhost:8080/api/cases/v3/cases/cust/info/${userDetails.username.toLowerCase()}`,{
+            const response = await axios.get(`https://sales-force.onrender.com/api/cases/v3/cases/cust/info/${userDetails.username.toLowerCase()}`,{
                 method : 'GET'
             });
 
@@ -115,7 +115,7 @@ const Cases = ({newCompany}) => {
         if(saleRef.current){
             console.log("saleRef.current", saleRef.current)
 
-            const reportResponse = await axios.post('http://localhost:8080/api/report/v5/case/duration',{
+            const reportResponse = await axios.post('https://sales-force.onrender.com/api/report/v5/case/duration',{
                 companyName : saleRef.current.companyName,
                 date : saleRef.current.date,
                 description : saleRef.current.description,
@@ -127,7 +127,7 @@ const Cases = ({newCompany}) => {
             const reportData = await reportResponse.data.message
             console.log(reportData)
 
-            const response = await axios.delete(`http://localhost:8080/api/cases/v3/cases/info/${saleRef.current._id}`);
+            const response = await axios.delete(`https://sales-force.onrender.com/api/cases/v3/cases/info/${saleRef.current._id}`);
 
             const data = await response.data.message;
             console.log(data)
@@ -144,7 +144,7 @@ const Cases = ({newCompany}) => {
 
     function handleDiscuss(custSupport){
         if(custSupport){
-            axios.post('http://localhost:8080/api/cases/v3/notify/email',{
+            axios.post('https://sales-force.onrender.com/api/cases/v3/notify/email',{
                 custname : custSupport === 'sales manager'? 'sales manager' : custSupport
             },{
                 headers : {
@@ -162,7 +162,7 @@ const Cases = ({newCompany}) => {
 
 
     async function handleCaseStatus(Case,caseStatus){
-        const response = axios.put(`http://localhost:8080/api/cases/v3/status/update/${Case._id}`,{
+        const response = axios.put(`https://sales-force.onrender.com/api/cases/v3/status/update/${Case._id}`,{
             status_of_case : caseStatus
         })
 

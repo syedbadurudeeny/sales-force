@@ -6,7 +6,7 @@ const Email = () => {
   const [emailData, setEmailData] = useState({ to: "", subject: "", message: "" });
 
   const sendEmail = () => {
-    axios.post("http://localhost:8080/api/account/v4/send-email", emailData)
+    axios.post("https://sales-force.onrender.com/api/account/v4/send-email", emailData)
       .then((res) => {
         if(res){
           alert("Email sent successfully!");
@@ -17,7 +17,7 @@ const Email = () => {
   };
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/account/v4/send-email/', {
+    axios.get('https://sales-force.onrender.com/api/account/v4/send-email/', {
       headers: {
         'Content-Type': "application/json"
       }

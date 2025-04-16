@@ -53,7 +53,7 @@ app.use('/api/chat', require('./Routers/conversationRouter'));
 const server = http.createServer(app);
 const io = socketIo(server, {
     cors: {
-        origin: 'http://localhost:3000', // Same as frontend
+        origin: 'https://sales-force-mini.netlify.app/', // Same as frontend
         methods: ['GET', 'POST'],
         credentials: true,
     },

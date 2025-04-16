@@ -4,11 +4,11 @@ import axios from 'axios';
 import { format } from 'date-fns';
 
 // Make sure the URL matches your server
-const socket = io('http://localhost:8080', {
+const socket = io('https://sales-force.onrender.com', {
     transports: ['websocket'], // Optional: You can specify transport options
     withCredentials: true, // Important if you're using credentials
     cors: {
-        origin: 'http://localhost:3000', // Frontend origin (optional if already handled server-side)
+        origin: 'https://sales-force-mini.netlify.app/', // Frontend origin (optional if already handled server-side)
     }
 });
 
@@ -25,7 +25,7 @@ const Conversation = ({ chatSale }) => {
 
     // Listen for incoming messages from the backend
     useEffect(() => {
-        axios.get('http://localhost:8080/api/chat/messages')
+        axios.get('https://sales-force.onrender.com/api/chat/messages')
             .then((res) => {
                 setMessages(res.data);
             })
