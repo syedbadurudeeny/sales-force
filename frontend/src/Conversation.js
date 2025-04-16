@@ -8,7 +8,7 @@ const socket = io('https://sales-force.onrender.com', {
     transports: ['websocket'], // Optional: You can specify transport options
     withCredentials: true, // Important if you're using credentials
     cors: {
-        origin: 'https://sales-force-mini.netlify.app/', // Frontend origin (optional if already handled server-side)
+        origin: 'https://deft-hamster-48555e.netlify.app', // Frontend origin (optional if already handled server-side)
     }
 });
 
